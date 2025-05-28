@@ -27,7 +27,7 @@ def game():
         print(number_of_move, moves[i])
         number_of_move += 1
     print()
-    user_choice = int(input()) -1#-1
+    user_choice = int(input()) -1
     computer_choice = random.randint(0, len(moves) -1)
 
     print("You chose: ", moves[user_choice])

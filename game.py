@@ -36,7 +36,6 @@ def game():
     if user_choice == computer_choice:
         print("Draw")
 
-    # User Rock
     elif user_choice == 0:
         if computer_choice == 1:
             print("You lose")
@@ -47,7 +46,6 @@ def game():
         if computer_choice == 4:
             print("You lose")
 
-    # User Paper
     elif user_choice == 1:
         if computer_choice == 0:
             print("You win")
@@ -58,7 +56,6 @@ def game():
         if computer_choice == 4:
             print("You lose")
 
-    # User Scissors
     elif user_choice == 2:
         if computer_choice == 0:
             print("You lose")
@@ -69,7 +66,6 @@ def game():
         if computer_choice == 4:
             print("You lose")
 
-    # User Lizard
     elif user_choice == 3:
         if computer_choice == 0:
             print("You lose")
@@ -80,7 +76,6 @@ def game():
         if computer_choice == 4:
             print("You win")
 
-    # User Spock
     elif user_choice == 4:
         if computer_choice == 0:
             print("You win")
